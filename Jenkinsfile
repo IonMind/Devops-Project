@@ -6,7 +6,6 @@ pipeline{
         stage("A"){
             steps{
                 echo "========executing Aw========"
-                git branch: 'develop', url: 'https://github.com/IonMind/Devops-Project.git'
             }
             post{
                 always{
