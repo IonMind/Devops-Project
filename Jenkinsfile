@@ -5,7 +5,7 @@ pipeline{
     stages{
         stage("A"){
             steps{
-                echo "========executing Aw========"
+                echo "========executing A========"
             }
             post{
                 always{
